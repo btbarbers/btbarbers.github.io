@@ -342,7 +342,7 @@ ol.rs-carousel-pagination { position: absolute; z-index: 998; top: 64%; left: 50
 
 .carousel-image { width: 1920px; height: 800px; }
 
-.carousel-image img { width: 1920px; }
+.carousel-image img { width: 1920px; height: 1000px; }
 
 .rs-carousel-pagination-link a { color: #bc4966 !important; }
 
