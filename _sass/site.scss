@@ -405,4 +405,47 @@ table{
   font-size:18px;
 }
 
+/* Blue Imp Gallery style
+=========================================================== */ 
+
+.blueimp-gallery>.close {
+  top:115px;
+}
+#links img{
+  width:320px;
+  height:320px;
+  padding:10px;
+  @include media-query($on-palm){
+    width:480px;
+    height:480px;
+  }
+}
+.first-row{
+  display:flex;
+  @include media-query($on-palm){
+    display:flex;
+    flex-direction:column;
+    
+  }
+}
+.display-section{
+  margin:10px;
+}
+.display-about{
+  display:flex;
+  @include media-query($on-palm){
+    flex-direction:column;
+
+  }
+}
+.about-us-content{
+  margin:0px 10px;
+  width:50%;
+  @include media-query($on-palm){
+    width:100%;
+    margin-top:15px;
+  }
+}
+
+
    

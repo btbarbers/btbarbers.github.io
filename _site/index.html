@@ -9,12 +9,13 @@
   <title></title>
   <meta name="description" content="">
   <meta name="google-site-verification" content="LA-rXFeVwitrf7bP-jkQf1MFJOn0rCMbcmxEuuRW-u8" />
-  <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml" />
   <link rel="stylesheet" type="text/css" href="/assets/jQuery-ui-carousel/css/jQuery.rs.carousel.css" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
- 
+ <link rel="stylesheet" href="/assets/blueImp/blueimp.min.css" />
+ <link rel="stylesheet" href="/css/main.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
@@ -23,6 +24,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
   <script type="text/javascript" src="/assets/jQuery-ui-carousel/js/jQuery.rs.carousel.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript" src="/assets/blueImp/blueimp.min.js"></script>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 </head>
@@ -179,7 +181,7 @@ return initialValue;
    <nav class="site-right">
     <ul class="nav navbar-nav">
       <li>
-    <a class="page-link logo" href="/">BT Barber</a>
+    <a class="page-link logo" href="/">BT Barbers</a>
   </li>
   </ul>
   </nav>
@@ -267,8 +269,8 @@ return initialValue;
 
    
     <div class="row">
-    <div class="page-content col-md-12">
-      <div class="kt-carousel">
+    
+      <!--<div class="kt-carousel">
         
            <div class="rs-carousel">
             <span class="prev"></span>
@@ -293,27 +295,61 @@ return initialValue;
           </div>
          
 
+      </div>-->
+      <div id="links">
+        
+            <a href="/assets/Images/instagram/BtBarber/home1.jpg">
+            </a>
+            <a href="/assets/Images/instagram/BtBarber/home3.jpg">
+            </a>
       </div>
+            
+        
+  <div
+  id="blueimp-gallery-carousel"
+  class="blueimp-gallery blueimp-gallery-carousel"
+  aria-label="image carousel"
+>
+  <div class="slides"></div>
+  <h3 class="title"></h3>
+  <a
+    class="prev"
+    aria-controls="blueimp-gallery-carousel"
+    aria-label="previous slide"
+    >‹</a
+  >
+  <a
+    class="next"
+    aria-controls="blueimp-gallery-carousel"
+    aria-label="next slide"
+    >›</a
+  >
+  <a
+    class="play-pause"
+    aria-controls="blueimp-gallery-carousel"
+    aria-label="play slideshow"
+    aria-pressed="true"
+    role="button"
+  ></a>
+  <ol class="indicator"></ol>
+</div>
+
+</div>
+
       <div class="row">
           <div class="main"></div>
       </div>
-      </div>
-      </div>
+      
      
-                
-        
-   
-
-
-  
-    
+     
+       
 
    <div id="footer">
    <div class="container">
    	<div class="row">
    	<div class="col-md-4 col-sm-6">
 <div class="textwidget"><h3>BT Barber</h3>
-<p>Few minute walk from Walthamstow Central Station, BT Barber is on busy the Hoe street, has become recognised salon in North London. Our mission is to uphold quality care for each clients needs and provide an excellent customer service. We have talented barbers and stylists with skills and experience to cut all types of afro and European hair textures.  
+<p>Few minute walk from Fainsbury park Station, our Barber shop is on busy the Seven sisters Road, has become recognised salon in North London. Our mission is to uphold quality care for each clients needs and provide an excellent customer service. We have talented barbers and stylists with skills and experience to cut all types of afro and European hair textures.  
    We have relaxing and friendly environment for our customers. Our trusted, fast growing customer base often return for their professional service that suits their personality and style.
    </p></div>
    	</div>
@@ -385,5 +421,6 @@ return initialValue;
 
   </body>
 </html>
+
 
 

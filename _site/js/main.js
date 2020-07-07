@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
 
-    $('.rs-carousel').carousel({
+    /*$('.rs-carousel').carousel({
      orientation: 'horizontal',
      itemsPerTransition: 'auto',
      loop:true,
@@ -15,15 +15,22 @@ jQuery(document).ready(function(){
 
 
 
-    });
+    });*/
 
     // set paging text
 
-    $('.rs-carousel-pagination-link a').each(function(){
+    /*$('.rs-carousel-pagination-link a').each(function(){
       $(this).html('<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>');
-    })
+    })*/
 	
-	displayIconOnMobile();
+    displayIconOnMobile();
+    blueimp.Gallery(document.getElementById('links').getElementsByTagName('a'), {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+      })
+    
+    
+   
 
 
 });
