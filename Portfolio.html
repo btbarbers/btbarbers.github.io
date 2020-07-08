@@ -118,7 +118,7 @@ layout: page
                 <img src="/assets/Images/instagram/BtBarber/69299701_686491938500233_8617400285087662080_n(1).jpg">
             </a>
         </div>
-        <
+        
     </div>
 
     <div
@@ -163,13 +163,3 @@ layout: page
 </div>
 </div>
 
-<script>
-    document.getElementById('links').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-    }
-</script>

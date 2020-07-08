@@ -24,10 +24,18 @@ jQuery(document).ready(function(){
     })*/
 	
     displayIconOnMobile();
-    blueimp.Gallery(document.getElementById('links').getElementsByTagName('a'), {
+    blueimp.Gallery(document.getElementById('links-home').getElementsByTagName('a'), {
         container: '#blueimp-gallery-carousel',
         carousel: true
       })
+      document.getElementById('links').onclick = function (event) {
+        event = event || window.event
+        var target = event.target || event.srcElement
+        var link = target.src ? target.parentNode : target
+        var options = { index: link, event: event }
+        var links = this.getElementsByTagName('a')
+        blueimp.Gallery(links, options)
+    }
     
     
    

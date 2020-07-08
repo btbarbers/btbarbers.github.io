@@ -447,5 +447,46 @@ table{
   }
 }
 
+.book-link{
+  margin-top: 3px;
+  padding: 10px 15px !important;
+  color: white !important;
+}
+.li-book{
+  padding-right:5px;
+}
+
+.price-section{
+  display:flex;
+  justify-content:center;
+}
+.price-heading{
+  padding-bottom:10px;
+}
+.contact-section{
+  display:flex;
+  justify-content:space-between;
+  @include media-query($on-palm){
+    flex-direction:column;
+  }
+}
+
+.style-walles-header{
+  text-align:center;
+  padding-bottom:20px;
+}
+.style{
+  padding-right:5px;
+}
+.align-center{
+  text-align:center;
+}
+.index-padding-top{
+  padding-top:20px !important;
+}
+.blueimp-gallery-carousel{
+  margin:0 auto;
+}
+
 
    
